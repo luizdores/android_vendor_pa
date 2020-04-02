@@ -27,7 +27,6 @@ TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, device/motorola/ocean/deviice.mk)
 
 # Inherit common PA configuration
-$(call inherit-product, device/qcom/common/common.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 PRODUCT_BRAND := motorola
