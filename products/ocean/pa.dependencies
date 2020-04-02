@@ -24,6 +24,12 @@
         "revision":     "quartz"
     },
     {
+        "remote":       "github",
+        "remote":       "github",
+        "repository":   "RenanQueiroz/android_hardware_qcom_bt",
+        "revision":     "quartz"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_qcom_common",
         "target_path":  "vendor/qcom/common",
