@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit from ocean device
-$(call inherit-product, device/motorola/ocean/deviice.mk)
+$(call inherit-product, device/motorola/ocean/device.mk)
 
 # Inherit common PA configuration
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
